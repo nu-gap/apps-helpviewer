@@ -92,6 +92,8 @@
     );
     LINKEROPTIONS = "";
     "LOCALIZED_RESOURCES" = (
+	"Localizable.strings",
+	"InfoPlist.strings"
     );
     MAININTERFACE = "MainMenu.gorm";
     MAKEFILEDIR = "$(GNUSTEP_MAKEFILES)";
@@ -99,6 +101,8 @@
     );
     "OBJC_COMPILEROPTIONS" = "";
     "OTHER_RESOURCES" = (
+	"Localizable.strings",
+	"InfoPlist.strings"
     );
     "OTHER_SOURCES" = (
 	"main.m"
@@ -145,6 +149,8 @@
     );
     "USER_LANGUAGES" = (
 	BritainEnglish,
-	English
+	English,
+	German,
+	Italian
     );
 }

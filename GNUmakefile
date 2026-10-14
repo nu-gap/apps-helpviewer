@@ -55,6 +55,15 @@ Resources/Search.tiff
 
 
 #
+# Localization
+#
+HelpViewer_LANGUAGES = BritainEnglish English German Italian
+HelpViewer_LOCALIZED_RESOURCE_FILES = \
+Localizable.strings \
+InfoPlist.strings 
+
+
+#
 # Header files
 #
 HelpViewer_HEADER_FILES = \

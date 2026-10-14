@@ -27,9 +27,12 @@
 
 @interface Controller : NSObject
 {
-  id infoMenu;
-  id helpMenu;
-  id servicesMenu;
+  IBOutlet NSMenu *infoMenu;
+  IBOutlet NSMenu *helpMenu;
+  IBOutlet NSMenu *openRecentMenu;
+  IBOutlet id<NSMenuItem> openRecentMenuItem;  
+  IBOutlet id<NSMenuItem> quitMenuItem;
+  IBOutlet id<NSMenuItem> helpMenuItem;
 }
 
 @end

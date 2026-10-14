@@ -32,6 +32,9 @@
   [infoMenu setAction: @selector (orderFrontStandardInfoPanel:)];
   [helpMenu setAction: @selector (orderFrontHelpPanel:)];
  */
+ [openRecentMenuItem setEnabled: YES];
+ [helpMenuItem setTitle: _(@"Help...")];
+ [quitMenuItem setTitle: _(@"Quit...")];
 }
 
 - (void) applicationDidFinishLaunching: (NSNotification *)aNot
