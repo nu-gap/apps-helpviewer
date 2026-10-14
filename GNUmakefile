@@ -57,7 +57,7 @@ Resources/Search.tiff
 #
 # Localization
 #
-HelpViewer_LANGUAGES = BritainEnglish English German Italian
+HelpViewer_LANGUAGES = English German Italian
 HelpViewer_LOCALIZED_RESOURCE_FILES = \
 Localizable.strings \
 InfoPlist.strings 
